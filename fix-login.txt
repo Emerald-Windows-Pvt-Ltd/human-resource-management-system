@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "=== Employee Management System - Password Fix ==="
+echo ""
+echo "Please run the following SQL command in your MySQL database:"
+echo ""
+echo "UPDATE users SET password = '\$2b\$12\$TUGwUP/219.SFWO2duKdbuQxbJT.MMOfpdTVTgHmqKafHEHO7n4GC' WHERE email = 'admin@empmate.com';"
+echo ""
+echo "Or execute this file: d:\\EMP MATE\\backend\\fix-admin-password.sql"
+echo ""
+echo "After updating the password, you can login with:"
+echo "Email: admin@empmate.com"
+echo "Password: admin123"
+echo ""
